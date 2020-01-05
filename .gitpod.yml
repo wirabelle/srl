@@ -1,8 +1,7 @@
 ports:
 - port: 8000
-  onOpen: open-preview
 tasks:
 - init: >
-    composer update
+    composer install
   command: >
-    php bin/console server:run 0.0.0.0:8000 
+    mkdir -p logs && php -S localhost:8000 -t public/ .htrouter.php > logs/php.log 2>&1 &
