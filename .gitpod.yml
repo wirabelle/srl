@@ -4,4 +4,13 @@ tasks:
 - init: >
     composer install
   command: >
-    mkdir -p logs && php -S localhost:8000 -t public/ .htrouter.php > logs/php.log 2>&1 &
+    mkdir -p logs && 
+    php -S localhost:8000 -t public/ .htrouter.php > logs/php.log 2>&1 &
+- command: >
+    mkdir -p bin &&
+    wget https://cs.symfony.com/download/php-cs-fixer-v2.phar -O ./bin/php-cs-fixer &&
+    chmod a+x ./bin/php-cs-fixer
+vscode:
+  extensions:
+    - junstyle.php-cs-fixer@0.1.129:V3eTFZb0CZ6AnqWswRbFLQ==
+    - dawhite.mustache@1.1.1:6y9MS8kOJmwlXmi0Nvm4Qw==
