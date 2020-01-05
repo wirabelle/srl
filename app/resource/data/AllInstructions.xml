@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Program name="AllInstructions">
+  <Variables>
+    <Variable name="test" number="0" />
+  </Variables>
+  <Instructions>
+    <Event event="FlightStart" id="0" style="flight-start" pos="-10,-20" />
+    <Repeat id="1" style="repeat">
+      <Constant number="10" />
+      <Instructions>
+        <ChangeVariable id="2" style="change-variable">
+          <Variable local="false" variableName="test" />
+          <Constant number="0" />
+        </ChangeVariable>
+      </Instructions>
+    </Repeat>
+    <While id="3" style="while">
+      <Constant style="true" pos="52.27927,-154.6944" bool="true" />
+      <Instructions>
+        <ChangeVariable id="4" style="change-variable">
+          <Variable local="false" variableName="test" />
+          <Constant number="0" />
+        </ChangeVariable>
+      </Instructions>
+    </While>
+    <WaitSeconds id="5" style="wait-seconds">
+      <Constant number="1" />
+    </WaitSeconds>
+    <WaitUntil id="6" style="wait-until">
+      <Constant style="false" pos="118.7577,-308.6447" bool="false" />
+    </WaitUntil>
+    <If id="7" style="if">
+      <Constant style="false" pos="16.41587,-341.0092" bool="false" />
+      <Instructions>
+        <ChangeVariable id="8" style="change-variable">
+          <Variable local="false" variableName="test" />
+          <Constant number="0" />
+        </ChangeVariable>
+      </Instructions>
+    </If>
+    <ElseIf id="9" style="else-if">
+      <Constant style="true" pos="64.52532,-435.4787" bool="true" />
+      <Instructions>
+        <ChangeVariable id="10" style="change-variable">
+          <Variable local="false" variableName="test" />
+          <Constant number="0" />
+        </ChangeVariable>
+      </Instructions>
+    </ElseIf>
+    <ElseIf id="11" style="else">
+      <Constant bool="true" />
+      <Instructions>
+        <ChangeVariable id="12" style="change-variable">
+          <Variable local="false" variableName="test" />
+          <Constant number="0" />
+        </ChangeVariable>
+      </Instructions>
+    </ElseIf>
+    <Break id="13" style="break" />
+    <Comment id="14" style="comment">
+      <Constant style="comment-text" canReplace="false" text="Comment Text" />
+    </Comment>
+    <ChangeVariable id="15" style="change-variable">
+      <Variable local="false" variableName="test" pos="143.14,-684" />
+      <Constant number="0" />
+    </ChangeVariable>
+    <SetVariable id="16" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <BinaryOp op="+" style="op-add">
+        <Constant number="0" />
+        <Constant number="0" />
+      </BinaryOp>
+    </SetVariable>
+    <SetVariable id="17" style="set-variable">
+      <Variable local="false" variableName="test" pos="108,-649.0123" />
+      <BinaryOp op="-" style="op-sub" pos="188,-731.0011">
+        <Constant number="0" />
+        <Constant number="0" />
+      </BinaryOp>
+    </SetVariable>
+    <SetVariable id="18" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <BinaryOp op="/" style="op-div" pos="220,-769.0011">
+        <Constant number="0" />
+        <Constant number="0" />
+      </BinaryOp>
+    </SetVariable>
+    <SetVariable id="19" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <BinaryOp op="*" style="op-mul" pos="199,-812.0011">
+        <Constant number="0" />
+        <Constant number="0" />
+      </BinaryOp>
+    </SetVariable>
+    <SetVariable id="20" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <BinaryOp op="^" style="op-exp" pos="197,-854.0011">
+        <Constant number="0" />
+        <Constant number="0" />
+      </BinaryOp>
+    </SetVariable>
+    <SetVariable id="21" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <BinaryOp op="%" style="op-mod" pos="201,-895.0011">
+        <Constant number="0" />
+        <Constant number="0" />
+      </BinaryOp>
+    </SetVariable>
+    <SetVariable id="22" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <BinaryOp op="rand" style="op-rand" pos="204,-952.0011">
+        <Constant number="0" />
+        <Constant number="0" />
+      </BinaryOp>
+    </SetVariable>
+    <SetVariable id="23" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <BinaryOp op="min" style="op-min" pos="202,-975.0011">
+        <Constant number="0" />
+        <Constant number="0" />
+      </BinaryOp>
+    </SetVariable>
+    <SetVariable id="24" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <BinaryOp op="max" style="op-max" pos="183,-1037.001">
+        <Constant number="0" />
+        <Constant number="0" />
+      </BinaryOp>
+    </SetVariable>
+    <SetVariable id="25" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <BoolOp op="and" style="op-and" pos="189,-1085.001">
+        <Constant style="true" pos="199,-1075" bool="true" />
+        <Constant style="false" pos="301,-1080.01" bool="false" />
+      </BoolOp>
+    </SetVariable>
+    <SetVariable id="26" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <BoolOp op="or" style="op-or" pos="194,-1134.001">
+        <Constant bool="false" />
+        <Constant bool="false" />
+      </BoolOp>
+    </SetVariable>
+    <SetVariable id="27" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <Not style="op-not" pos="200,-1174.001">
+        <Constant bool="false" />
+      </Not>
+    </SetVariable>
+    <SetVariable id="28" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <Comparison op="=" style="op-eq" pos="177.3638,-1219.226">
+        <Constant number="0" />
+        <Constant number="0" />
+      </Comparison>
+    </SetVariable>
+    <SetVariable id="29" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <Comparison op="l" style="op-lt" pos="186.9857,-1261.212">
+        <Constant number="0" />
+        <Constant number="0" />
+      </Comparison>
+    </SetVariable>
+    <SetVariable id="30" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <Comparison op="le" style="op-lte" pos="184.3615,-1315.444">
+        <Constant number="0" />
+        <Constant number="0" />
+      </Comparison>
+    </SetVariable>
+    <SetVariable id="31" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <Comparison op="g" style="op-gt" pos="215.8513,-1343.435">
+        <Constant number="0" />
+        <Constant number="0" />
+      </Comparison>
+    </SetVariable>
+    <SetVariable id="32" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <Comparison op="ge" style="op-gte" pos="200.1064,-1396.793">
+        <Constant number="0" />
+        <Constant number="0" />
+      </Comparison>
+    </SetVariable>
+    <SetVariable id="33" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <MathFunction function="abs" style="op-math" pos="191.3593,-1427.408">
+        <Constant number="0" />
+      </MathFunction>
+    </SetVariable>
+    <SetVariable id="34" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <Conditional style="conditional" pos="208.8536,-1486.889">
+        <Constant bool="false" />
+        <Constant number="0" />
+        <Constant number="0" />
+      </Conditional>
+    </SetVariable>
+    <SetVariable id="35" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <StringOp op="join" style="join" pos="179.1133,-1541.122">
+        <Constant text="alpha" />
+        <Constant text="bravo" />
+      </StringOp>
+    </SetVariable>
+    <SetVariable id="36" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <StringOp op="letter" style="letter" pos="203.6053,-1581.359">
+        <Constant number="1" />
+        <Constant text="alpha" />
+      </StringOp>
+    </SetVariable>
+    <SetVariable id="37" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <StringOp op="length" style="length" pos="213.2272,-1616.347">
+        <Constant text="alpha" />
+      </StringOp>
+    </SetVariable>
+    <SetVariable id="38" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <StringOp op="contains" style="contains" pos="179.1133,-1669.705">
+        <Constant text="alpha" />
+        <Constant text="a" />
+      </StringOp>
+    </SetVariable>
+    <ActivateStage id="39" style="activate-stage" />
+    <SetInput input="roll" id="40" style="set-input">
+      <Constant number="0" />
+    </SetInput>
+    <SetInput input="pitch" id="41" style="set-input">
+      <Constant number="0" />
+    </SetInput>
+    <SetInput input="yaw" id="42" style="set-input">
+      <Constant number="0" />
+    </SetInput>
+    <SetInput input="throttle" id="43" style="set-input">
+      <Constant number="0" />
+    </SetInput>
+    <SetInput input="brake" id="44" style="set-input">
+      <Constant number="0" />
+    </SetInput>
+    <SetInput input="slider1" id="45" style="set-input">
+      <Constant number="0" />
+    </SetInput>
+    <SetInput input="slider2" id="46" style="set-input">
+      <Constant number="0" />
+    </SetInput>
+    <SetInput input="translateForward" id="47" style="set-input">
+      <Constant number="0" />
+    </SetInput>
+    <SetInput input="translateRight" id="48" style="set-input">
+      <Constant number="0" />
+    </SetInput>
+    <SetInput input="translateUp" id="49" style="set-input">
+      <Constant number="0" />
+    </SetInput>
+    <SetTargetHeading property="pitch" id="50" style="set-heading">
+      <Constant number="0" />
+    </SetTargetHeading>
+    <SetTargetHeading property="heading" id="51" style="set-heading">
+      <Constant number="0" />
+    </SetTargetHeading>
+    <SetTarget id="52" style="set-target">
+      <Constant text="name" />
+    </SetTarget>
+    <SetActivationGroup id="53" style="set-ag">
+      <Constant number="1" />
+      <Constant bool="true" />
+    </SetActivationGroup>
+    <LockNavSphere indicatorType="None" id="54" style="lock-nav-sphere" />
+    <LockNavSphere indicatorType="Prograde" id="55" style="lock-nav-sphere" />
+    <LockNavSphere indicatorType="Retrograde" id="56" style="lock-nav-sphere" />
+    <LockNavSphere indicatorType="Target" id="57" style="lock-nav-sphere" />
+    <LockNavSphere indicatorType="BurnNode" id="58" style="lock-nav-sphere" />
+    <LockNavSphere indicatorType="Current" id="59" style="lock-nav-sphere" />
+    <SetTimeMode mode="Paused" id="60" style="set-time-mode" />
+    <SetTimeMode mode="SlowMotion" id="61" style="set-time-mode" />
+    <SetTimeMode mode="Normal" id="62" style="set-time-mode" />
+    <SetTimeMode mode="FastForward" id="63" style="set-time-mode" />
+    <SetTimeMode mode="TimeWarp1" id="64" style="set-time-mode" />
+    <SetTimeMode mode="TimeWarp10" id="65" style="set-time-mode" />
+    <SetCameraProperty property="rotationX" id="66" style="set-camera">
+      <Constant number="100" />
+    </SetCameraProperty>
+    <SetCameraProperty property="rotationY" id="67" style="set-camera">
+      <Constant number="100" />
+    </SetCameraProperty>
+    <SetCameraProperty property="tilt" id="68" style="set-camera">
+      <Constant number="100" />
+    </SetCameraProperty>
+    <SetCameraProperty property="zoom" id="69" style="set-camera">
+      <Constant number="100" />
+    </SetCameraProperty>
+    <SetCameraProperty property="mode" id="70" style="set-camera">
+      <Constant number="100" />
+    </SetCameraProperty>
+    <SetCameraProperty property="modeIndex" id="71" style="set-camera">
+      <Constant number="100" />
+    </SetCameraProperty>
+    <SetVariable id="72" style="set-variable">
+      <Variable local="false" variableName="test" pos="107.3864,-3015.895" />
+      <CraftProperty property="Altitude.AGL" style="prop-altitude" pos="190.4846,-3014.146" />
+    </SetVariable>
+    <SetVariable id="73" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Altitude.ASL" style="prop-altitude" />
+    </SetVariable>
+    <SetVariable id="74" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Orbit.Apoapsis" style="prop-orbit" pos="206.2295,-3096.383" />
+    </SetVariable>
+    <SetVariable id="75" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Orbit.Periapsis" style="prop-orbit" pos="181.0041,-3150.487" />
+    </SetVariable>
+    <SetVariable id="76" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Orbit.TimeToApoapsis" style="prop-orbit" pos="187.1272,-3191.864" />
+    </SetVariable>
+    <SetVariable id="77" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Orbit.TimeToPeriapsis" style="prop-orbit" pos="181.8788,-3231.49" />
+    </SetVariable>
+    <SetVariable id="78" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Orbit.Eccentricity" style="prop-orbit" pos="179.2547,-3268.492" />
+    </SetVariable>
+    <SetVariable id="79" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Orbit.Inclination" style="prop-orbit" pos="181.8788,-3329.987" />
+    </SetVariable>
+    <SetVariable id="80" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Orbit.Period" style="prop-orbit" pos="180.1294,-3363.49" />
+    </SetVariable>
+    <SetVariable id="81" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Atmosphere.AirDensity" style="prop-atmosphere" pos="191.3594,-3413.017" />
+    </SetVariable>
+    <SetVariable id="82" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Atmosphere.AirPressure" style="prop-atmosphere" pos="182.7536,-3467.235" />
+    </SetVariable>
+    <SetVariable id="83" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Atmosphere.SpeedOfSound" style="prop-atmosphere" pos="190.626,-3501.613" />
+    </SetVariable>
+    <SetVariable id="84" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Atmosphere.Temperature" style="prop-atmosphere" pos="187.1272,-3549.112" />
+    </SetVariable>
+    <SetVariable id="85" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Performance.CurrentEngineThrust" style="prop-performance" pos="200.9811,-3600.206" />
+    </SetVariable>
+    <SetVariable id="86" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Performance.Mass" style="prop-performance" pos="187.1271,-3623.116" />
+    </SetVariable>
+    <SetVariable id="87" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Performance.MaxActiveEngineThrust" style="prop-performance" pos="184.503,-3669.74" />
+    </SetVariable>
+    <SetVariable id="88" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Performance.TWR" style="prop-performance" pos="184.503,-3711.116" />
+    </SetVariable>
+    <SetVariable id="89" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Performance.CurrentIsp" style="prop-performance" pos="189.7513,-3770.861" />
+    </SetVariable>
+    <SetVariable id="90" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Performance.StageDeltaV" style="prop-performance" pos="187.1272,-3806.989" />
+    </SetVariable>
+    <SetVariable id="91" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Performance.BurnTime" style="prop-performance" pos="179.2547,-3854.488" />
+    </SetVariable>
+    <SetVariable id="92" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Fuel.Battery" style="prop-fuel" pos="193.9835,-3901.109" />
+    </SetVariable>
+    <SetVariable id="93" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Fuel.FuelInStage" style="prop-fuel" pos="183.6283,-3936.365" />
+    </SetVariable>
+    <SetVariable id="94" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Fuel.Mono" style="prop-fuel" pos="185.3777,-3985.613" />
+    </SetVariable>
+    <SetVariable id="95" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Fuel.AllStages" style="prop-fuel" pos="176.6305,-4028.738" />
+    </SetVariable>
+    <SetVariable id="96" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Vel.SurfaceVelocity" style="prop-velocity" pos="208.8536,-4076.927" />
+    </SetVariable>
+    <SetVariable id="97" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Vel.OrbitVelocity" style="prop-velocity" pos="179.2547,-4110.615" />
+    </SetVariable>
+    <SetVariable id="98" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Vel.Gravity" style="prop-velocity" pos="183.6283,-4162.487" />
+    </SetVariable>
+    <SetVariable id="99" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Vel.Acceleration" style="prop-velocity" pos="187.1272,-4200.365" />
+    </SetVariable>
+    <SetVariable id="100" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Vel.AngularVelocity" style="prop-velocity" pos="191.5007,-4245.239" />
+    </SetVariable>
+    <SetVariable id="101" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Vel.LateralSurfaceVelocity" style="prop-velocity" pos="188.8766,-4293.612" />
+    </SetVariable>
+    <SetVariable id="102" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Vel.VerticalSurfaceVelocity" style="prop-velocity" pos="179.2547,-4334.989" />
+    </SetVariable>
+    <SetVariable id="103" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Vel.MachNumber" style="prop-velocity" pos="181.8788,-4379.863" />
+    </SetVariable>
+    <SetVariable id="104" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Input.Roll" style="prop-input" pos="205.3548,-4425.939" />
+    </SetVariable>
+    <SetVariable id="105" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Input.Pitch" style="prop-input" pos="192.3755,-4465.239" />
+    </SetVariable>
+    <SetVariable id="106" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Input.Yaw" style="prop-input" pos="181.8788,-4506.615" />
+    </SetVariable>
+    <SetVariable id="107" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Input.Throttle" style="prop-input" pos="178.38,-4551.49" />
+    </SetVariable>
+    <SetVariable id="108" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Input.Brake" style="prop-input" pos="181.0041,-4601.612" />
+    </SetVariable>
+    <SetVariable id="109" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Input.Slider1" style="prop-input" pos="183.6283,-4644.738" />
+    </SetVariable>
+    <SetVariable id="110" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Input.Slider2" style="prop-input" pos="180.1294,-4686.114" />
+    </SetVariable>
+    <SetVariable id="111" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Input.TranslateForward" style="prop-input" pos="179.2547,-4730.989" />
+    </SetVariable>
+    <SetVariable id="112" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Input.TranslateRight" style="prop-input" pos="176.6305,-4773.239" />
+    </SetVariable>
+    <SetVariable id="113" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Input.TranslateUp" style="prop-input" pos="181.8788,-4818.988" />
+    </SetVariable>
+    <SetVariable id="114" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Misc.Grounded" style="prop-misc" pos="200.9813,-4868.546" />
+    </SetVariable>
+    <SetVariable id="115" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <CraftProperty property="Misc.SolarRadiation" style="prop-misc" pos="182.7536,-4908.738" />
+    </SetVariable>
+    <SetVariable id="116" style="set-variable">
+      <Variable local="false" variableName="test" />
+      <ActivationGroup style="activation-group" pos="193.9834,-4960.392">
+        <Constant number="1" />
+      </ActivationGroup>
+    </SetVariable>
+  </Instructions>
+  <Instructions>
+    <Event event="ReceiveMessage" id="117" style="receive-msg" pos="560.4901,-106.5849">
+      <Constant canReplace="false" text="message" />
+    </Event>
+    <ChangeVariable id="118" style="change-variable">
+      <Variable local="false" variableName="test" />
+      <Constant number="0" />
+    </ChangeVariable>
+    <BroadcastMessage local="true" id="119" style="broadcast-msg">
+      <Constant text="message" />
+      <Constant number="0" />
+    </BroadcastMessage>
+    <BroadcastMessage local="false" id="120" style="broadcast-msg-craft">
+      <Constant text="message" />
+      <Constant number="0" />
+    </BroadcastMessage>
+  </Instructions>
+  <Expressions />
+</Program>
