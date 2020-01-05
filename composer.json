@@ -5,6 +5,10 @@
     "minimum-stability": "dev",
     "require": {
         "bcosca/fatfree-core": "dev-master",
-        "mustache/mustache": "dev-master"
+        "mustache/mustache": "dev-master",
+        "doctrine/inflector": "^2.0@dev"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.1@dev"
     }
 }
