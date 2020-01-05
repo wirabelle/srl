@@ -1,0 +1,98 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3dd14846615b17bfc1312f7eea09bbc6",
+    "packages": [
+        {
+            "name": "bcosca/fatfree-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bcosca/fatfree-core.git",
+                "reference": "dae95a0baf3963a9ef87c17cee52f78f77e21829"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bcosca/fatfree-core/zipball/dae95a0baf3963a9ef87c17cee52f78f77e21829",
+                "reference": "dae95a0baf3963a9ef87c17cee52f78f77e21829",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "."
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+            "homepage": "http://fatfreeframework.com/",
+            "time": "2020-01-04T14:44:00+00:00"
+        },
+        {
+            "name": "mustache/mustache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/mustache.php.git",
+                "reference": "e95c5a008c23d3151d59ea72484d4f72049ab7f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/e95c5a008c23d3151d59ea72484d4f72049ab7f4",
+                "reference": "e95c5a008c23d3151d59ea72484d4f72049ab7f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~1.11",
+                "phpunit/phpunit": "~3.7|~4.0|~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "A Mustache implementation in PHP.",
+            "homepage": "https://github.com/bobthecow/mustache.php",
+            "keywords": [
+                "mustache",
+                "templating"
+            ],
+            "time": "2019-11-23T21:40:31+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "bcosca/fatfree-core": 20,
+        "mustache/mustache": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

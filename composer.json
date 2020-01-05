@@ -1,0 +1,10 @@
+{
+    "name": "wirabelle/srl",
+    "type": "project",
+    "license": "MIT License",
+    "minimum-stability": "dev",
+    "require": {
+        "bcosca/fatfree-core": "dev-master",
+        "mustache/mustache": "dev-master"
+    }
+}
